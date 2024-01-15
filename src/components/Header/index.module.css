@@ -1,0 +1,31 @@
+.root {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: orangered;
+    padding: 8px 16px;
+}
+
+.header {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.cart {
+    color: white;
+}
+
+.orderItem {
+    border-bottom: 1px solid gray;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.orderPrice {
+    font-size: 24px;
+    font-weight: 600;
+}

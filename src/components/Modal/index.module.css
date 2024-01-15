@@ -1,0 +1,93 @@
+.overlay {
+    background: rgb(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+}
+
+.modal {
+    width: 100%;
+    min-width: 300px;
+    max-width: 700px;
+    min-height: 200px;
+    max-height: 600px;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    margin: 0 16px;
+}
+.img {
+    width: 40%;
+    object-fit: cover;
+}
+
+.modalContent {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.modalHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}    
+
+.header {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.modalBody {
+    margin-top: 16px;
+    text-align: left;
+    max-height: 400px;
+    overflow: auto;
+}
+
+.modalFooter {
+    margin-top: 16px;
+    display: flex;
+    justify-content: flex-end;
+    max-height: 100px;
+}
+
+.successButton {
+    margin-left: 16px;
+    background: #157347;
+    width: 100px;
+    height: 32px;
+    border-radius: 8px;
+    border: 0;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.cancelButton {
+    background: #D43343;
+    width: 100px;
+    height: 32px;
+    border-radius: 8px;
+    border: 0;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.closeIcon {
+    background: none;
+    border: 0;
+    cursor: pointer;
+}
+
